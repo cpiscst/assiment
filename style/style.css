@@ -12,7 +12,7 @@
 
     /* Navbar + Banner Background */
     .bg-style {
-      background-image: url('./asserts/Hero-bg.png'); 
+      background-image: url('../asserts/Hero-bg.png'); 
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -66,7 +66,7 @@
       padding: 12px 25px;
     }
 
-    /* Action Section (Different Background) */
+    /* Action Section (Updated with margin) */
     .action {
       background-color: #c5c7cc;
       padding: 100px 30px;
@@ -74,12 +74,10 @@
       justify-content: space-between;
       align-items: center;
       max-width: 1140px;
-      margin: 0 auto;
-      margin-top: 10px;
+      margin: 80px auto; /* Top & bottom gap added */
       border-radius: 20px;
       gap: 30px;
     }
-    
 
     .action h2 {
       font-size: 28px;
@@ -112,4 +110,81 @@
       }
     }
 
- 
+    /* Review Section (Updated with margin) */
+    .review-section {
+      max-width: 1200px;
+      margin: 0 auto; 
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .review-section h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: #1d1d1f;
+    }
+
+    .review-container {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .review-card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 24px;
+      width: 300px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .review-card img.stars {
+      height: 20px;
+      margin-bottom: 12px;
+    }
+
+    .review-card h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #1a1a1a;
+    }
+
+    .review-card p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+    }
+
+    .reviewer img.avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .reviewer-details {
+      text-align: left;
+    }
+
+    .reviewer-details p {
+      margin: 0;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .reviewer-details p.name {
+      font-weight: 600;
+    }
