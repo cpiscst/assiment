@@ -269,7 +269,7 @@
     }
 
     .button-all {
-      width: 100%;
+      
       padding: 12px;
       background-color: #4CAF50;
       color: white;
@@ -279,7 +279,54 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+    .sign-button{
+      width: 100%;
+    }
 
     .button-all:hover {
       background-color: #45a049;
     }
+ footer {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 40px 20px;
+    }
+
+    .last-secsion {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .last-secsion > div {
+      flex: 1 1 250px;
+    }
+
+    .last-secsion h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color:blue;
+    }
+
+    .last-secsion p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+      color: #ccc;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .last-secsion p:hover {
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .last-secsion {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  
